@@ -1,0 +1,56 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vampirism"
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "vampirism:blood",
+                "ingredients": [
+                    {
+                        "item": "kaleidoscope_tavern:grape"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:blood_grape_wine"
+                },
+                "unit_time": 2400
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:not",
+                    "value": {
+                        "type": "forge:mod_loaded",
+                        "modid": "vampirism"
+                    }
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "kaleidoscope_bloodwine:blood",
+                "ingredients": [
+                    {
+                        "item": "kaleidoscope_tavern:grape"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:blood_grape_wine"
+                },
+                "unit_time": 2400
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vampirism"
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "vampirism:blood",
+                "ingredients": [
+                    {
+                        "item": "minecraft:phantom_membrane"
+                    },
+                    {
+                        "item": "minecraft:golden_apple"
+                    },
+                    {
+                        "item": "vampirism:pure_blood_2"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:sinmark_crimson"
+                },
+                "unit_time": 2400
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:not",
+                    "value": {
+                        "type": "forge:mod_loaded",
+                        "modid": "vampirism"
+                    }
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "kaleidoscope_bloodwine:blood",
+                "ingredients": [
+                    {
+                        "item": "minecraft:phantom_membrane"
+                    },
+                    {
+                        "item": "minecraft:golden_apple"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:sinmark_crimson"
+                },
+                "unit_time": 2400
+            }
+        }
+    ]
+}

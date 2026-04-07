@@ -1,0 +1,68 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vampirism"
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "vampirism:blood",
+                "ingredients": [
+                    {
+                        "item": "minecraft:blaze_powder"
+                    },
+                    {
+                        "item": "minecraft:golden_carrot"
+                    },
+                    {
+                        "tag": "vampirism:pure_blood"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:eternal_night_crimson"
+                },
+                "unit_time": 2400
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:not",
+                    "value": {
+                        "type": "forge:mod_loaded",
+                        "modid": "vampirism"
+                    }
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "kaleidoscope_bloodwine:blood",
+                "ingredients": [
+                    {
+                        "item": "minecraft:blaze_powder"
+                    },
+                    {
+                        "item": "minecraft:golden_carrot"
+                    },
+                    {
+                        "item": "minecraft:ghast_tear"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:eternal_night_crimson"
+                },
+                "unit_time": 2400
+            }
+        }
+    ]
+}

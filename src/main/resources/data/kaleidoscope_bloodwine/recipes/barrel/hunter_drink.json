@@ -1,0 +1,64 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vampirism"
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "minecraft:water",
+                "ingredients": [
+                    {
+                        "item": "minecraft:golden_apple"
+                    },
+                    {
+                        "item": "kaleidoscope_tavern:grape"
+                    },
+                    {
+                        "item": "vampirism:pure_salt"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:hunter_drink"
+                },
+                "unit_time": 2400
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:true"
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "minecraft:water",
+                "ingredients": [
+                    {
+                        "item": "minecraft:golden_apple"
+                    },
+                    {
+                        "item": "kaleidoscope_tavern:grape"
+                    },
+                    {
+                        "item": "minecraft:sweet_berries"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:hunter_drink"
+                },
+                "unit_time": 2400
+            }
+        }
+    ]
+}

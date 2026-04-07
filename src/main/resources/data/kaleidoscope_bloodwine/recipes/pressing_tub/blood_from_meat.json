@@ -1,0 +1,48 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vampirism"
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:pressing_tub",
+                "fluid": "vampirism:blood",
+                "fluid_amount": 50,
+                "ingredient": [
+                    {"item": "minecraft:beef"},
+                    {"item": "minecraft:porkchop"},
+                    {"item": "minecraft:chicken"},
+                    {"item": "minecraft:mutton"},
+                    {"item": "minecraft:rabbit"}
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:not",
+                    "value": {
+                        "type": "forge:mod_loaded",
+                        "modid": "vampirism"
+                    }
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:pressing_tub",
+                "fluid": "kaleidoscope_bloodwine:blood",
+                "fluid_amount": 50,
+                "ingredient": [
+                    {"item": "minecraft:beef"},
+                    {"item": "minecraft:porkchop"},
+                    {"item": "minecraft:chicken"},
+                    {"item": "minecraft:mutton"},
+                    {"item": "minecraft:rabbit"}
+                ]
+            }
+        }
+    ]
+}

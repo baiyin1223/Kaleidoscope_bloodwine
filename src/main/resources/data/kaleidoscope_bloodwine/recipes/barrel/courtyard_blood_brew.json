@@ -1,0 +1,71 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vampirism"
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "vampirism:blood",
+                "ingredients": [
+                    {
+                        "item": "minecraft:dragon_breath"
+                    },
+                    {
+                        "item": "minecraft:chorus_fruit"
+                    },
+                    {
+                        "item": "minecraft:blaze_powder"
+                    },
+                    {
+                        "item": "vampirism:pure_blood_4"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:courtyard_blood_brew"
+                },
+                "unit_time": 2400
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:not",
+                    "value": {
+                        "type": "forge:mod_loaded",
+                        "modid": "vampirism"
+                    }
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:barrel",
+                "carrier": {
+                    "item": "kaleidoscope_tavern:empty_bottle"
+                },
+                "fluid": "kaleidoscope_bloodwine:blood",
+                "ingredients": [
+                    {
+                        "item": "minecraft:dragon_breath"
+                    },
+                    {
+                        "item": "minecraft:chorus_fruit"
+                    },
+                    {
+                        "item": "minecraft:blaze_powder"
+                    }
+                ],
+                "result": {
+                    "item": "kaleidoscope_bloodwine:courtyard_blood_brew"
+                },
+                "unit_time": 2400
+            }
+        }
+    ]
+}

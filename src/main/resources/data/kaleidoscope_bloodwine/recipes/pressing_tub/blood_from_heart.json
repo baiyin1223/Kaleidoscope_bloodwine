@@ -1,0 +1,21 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "vampirism"
+                }
+            ],
+            "recipe": {
+                "type": "kaleidoscope_tavern:pressing_tub",
+                "fluid": "vampirism:blood",
+                "fluid_amount": 125,
+                "ingredient": {
+                    "tag": "vampirism:heart"
+                }
+            }
+        }
+    ]
+}

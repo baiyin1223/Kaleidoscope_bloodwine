@@ -1,0 +1,229 @@
+{
+    "item": "kaleidoscope_bloodwine:eternal_night_crimson",
+    "effects": [
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:strength",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:fire_resistance",
+                "duration": 20,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 20,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:strength",
+                "duration": 20,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:fire_resistance",
+                "duration": 40,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 40,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:strength",
+                "duration": 30,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:fire_resistance",
+                "duration": 60,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:regeneration",
+                "duration": 20,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 60,
+                "amplifier": 2,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:strength",
+                "duration": 60,
+                "amplifier": 2,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:fire_resistance",
+                "duration": 90,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:regeneration",
+                "duration": 40,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:resistance",
+                "duration": 30,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 90,
+                "amplifier": 3,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:strength",
+                "duration": 90,
+                "amplifier": 3,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:fire_resistance",
+                "duration": 120,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:regeneration",
+                "duration": 60,
+                "amplifier": 2,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:resistance",
+                "duration": 60,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:slow_falling",
+                "duration": 60,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 120,
+                "amplifier": 4,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:strength",
+                "duration": 120,
+                "amplifier": 4,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:fire_resistance",
+                "duration": 150,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:regeneration",
+                "duration": 80,
+                "amplifier": 3,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:resistance",
+                "duration": 100,
+                "amplifier": 2,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:slow_falling",
+                "duration": 100,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:luck",
+                "duration": 80,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 150,
+                "amplifier": 5,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:strength",
+                "duration": 150,
+                "amplifier": 5,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:fire_resistance",
+                "duration": 180,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:regeneration",
+                "duration": 120,
+                "amplifier": 4,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:resistance",
+                "duration": 150,
+                "amplifier": 3,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:slow_falling",
+                "duration": 150,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:luck",
+                "duration": 150,
+                "amplifier": 1,
+                "probability": 1.0
+            }
+        ]
+    ]
+}
