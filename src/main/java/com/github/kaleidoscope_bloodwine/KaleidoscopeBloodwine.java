@@ -1,5 +1,6 @@
 package com.github.kaleidoscope_bloodwine;
 
+import com.github.kaleidoscope_bloodwine.compat.GearsandTavernCompat;
 import com.github.kaleidoscope_bloodwine.init.ModBlocks;
 import com.github.kaleidoscope_bloodwine.init.ModCreativeTabs;
 import com.github.kaleidoscope_bloodwine.init.ModItems;
@@ -25,6 +26,11 @@ public class KaleidoscopeBloodwine {
         ModBlocks.BLOCKS.register(modBus);
         ModBlocks.BLOCK_ENTITIES.register(modBus);
         ModItems.ITEMS.register(modBus);
+
+        // 注册 CGT 兼容的 Capability 监听器（FORGE 事件总线）
+        // 内部会检查 CGT 是否加载，只有加载时才附加 Capability
+        GearsandTavernCompat.registerCapabilityListener(
+                net.minecraftforge.common.MinecraftForge.EVENT_BUS);
 
         LOGGER.info("Kaleidoscope Bloodwine initializing...");
     }

@@ -1,7 +1,10 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-mixins=[{config="kaleidoscope_bloodwine.mixins.json"}]
+mixins=[
+    {config="kaleidoscope_bloodwine.mixins.json"},
+    {config="kaleidoscope_bloodwine.cgt.mixins.json"}
+]
 
 [[mods]]
 modId="${mod_id}"
@@ -36,5 +39,12 @@ side="BOTH"
 modId="vampirism"
 mandatory=false
 versionRange="[1.9,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies."${mod_id}"]]
+modId="creategearsandtavern"
+mandatory=false
+versionRange="[1.0.0,)"
 ordering="AFTER"
 side="BOTH"

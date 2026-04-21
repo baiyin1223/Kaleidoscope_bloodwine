@@ -27,11 +27,20 @@ Kaleidoscope Bloodwine is an addon mod for **KaleidoscopeTavern**, bringing fant
 
 - This mod only requires KaleidoscopeTavern as a dependency and can run without Vampirism. In this case, a new blood fluid will be created instead of using vampirism:blood.
 
+### Create: Gears and Tavern (CGT) & Create Integration
+
+- Supports [Create: Gears and Tavern](https://github.com/yision1/GearsandTavern) and the Create mod
+- Blood wines can be transported through Create's fluid pipe system
+- Supports Create emptying/filling recipes for all blood wines at every brew level
+- Barrels display virtual blood wine fluids during brewing, compatible with Create's mechanical pump extraction
+
 ## Dependencies
 
 | Mod | Note |
 |-----|------|
 | KaleidoscopeTavern | **Required** - Main mod |
+| Create: Gears and Tavern | *Optional* - Enables Create fluid automation |
+| Create | *Optional* - Required by CGT |
 
 ## License
 

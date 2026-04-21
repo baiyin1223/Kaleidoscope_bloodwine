@@ -6,3 +6,15 @@ libs/
 .idea/
 *.log
 out/
+
+# CGT jar and decompiled temp files
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+jar_temp/
+com/
+
+# Analysis/debug temp files
+BarrelFluidHandler*.txt
+CGTKaleidoscopeBarrelFluids.java
+jar_analysis.txt
+/data/

@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "creategearsandtavern"
+        }
+      ],
+      "recipe": {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "kaleidoscope_tavern:empty_bottle"
+          },
+          {
+            "amount": 250,
+            "fluid": "kaleidoscope_bloodwine:blood_whiskey",
+            "nbt": "{DrinkVariant:{brew_level:1,drink_id:\"kaleidoscope_bloodwine:blood_whiskey\"}}"
+          }
+        ],
+        "results": [
+          {
+            "item": "kaleidoscope_bloodwine:blood_whiskey",
+            "nbt": {
+              "BrewLevel": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

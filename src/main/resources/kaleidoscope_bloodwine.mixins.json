@@ -5,7 +5,8 @@
     "refmap": "kaleidoscope_bloodwine.refmap.json",
     "mixins": [
         "PressingTubBlockEntityMixin",
-        "BarrelBlockEntityMixin"
+        "BarrelBlockEntityMixin",
+        "BarrelBlockEntityAccessor"
     ],
     "minVersion": "0.8"
 }
