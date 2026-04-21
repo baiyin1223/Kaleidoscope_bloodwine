@@ -41,6 +41,7 @@ Kaleidoscope Bloodwine is an addon mod for **KaleidoscopeTavern**, bringing fant
 | KaleidoscopeTavern | **Required** - Main mod |
 | Create: Gears and Tavern | *Optional* - Enables Create fluid automation |
 | Create | *Optional* - Required by CGT |
+| Vampirism | *Optional* -Enables Vampirism support |
 
 ## License
 
