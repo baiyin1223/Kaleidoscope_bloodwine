@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "creategearsandtavern"
+        }
+    ],
+    "type": "create:emptying",
+    "ingredients": [
+        {
+            "type": "neoforge:components",
+            "items": "kaleidoscope_bloodwine:blood_whiskey",
+            "components": {
+                "kaleidoscope_tavern:brew_level": 3
+            }
+        }
+    ],
+    "results": [
+        {
+            "id": "kaleidoscope_tavern:empty_bottle"
+        },
+        {
+            "id": "kaleidoscope_bloodwine:blood_whiskey",
+            "amount": 250,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                        "brew_level": 3,
+                        "drink_id": "kaleidoscope_bloodwine:blood_whiskey"
+                    }
+                
+            }
+        }
+    ]
+}

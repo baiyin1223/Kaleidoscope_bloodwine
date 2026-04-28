@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:mod_loaded",
+                "modid": "vampirism"
+            }
+        }
+    ],
+    "type": "kaleidoscope_tavern:pressing_tub",
+    "fluid": "kaleidoscope_bloodwine:blood",
+    "fluid_amount": 50,
+    "ingredient": {
+        "tag": "forge:rawmeats"
+    }
+}

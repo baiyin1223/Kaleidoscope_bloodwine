@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "vampirism"
+        }
+    ],
+    "type": "kaleidoscope_tavern:pressing_tub",
+    "fluid": "vampirism:blood",
+    "fluid_amount": 125,
+    "ingredient": {
+        "tag": "vampirism:heart"
+    }
+}

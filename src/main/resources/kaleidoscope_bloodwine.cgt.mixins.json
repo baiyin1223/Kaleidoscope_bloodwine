@@ -1,0 +1,11 @@
+{
+    "required": false,
+    "minVersion": "0.8",
+    "package": "com.github.kaleidoscope_bloodwine.mixin.cgt",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "kaleidoscope_bloodwine.refmap.json",
+    "mixins": [
+        "BarrelFluidHandlerMixin"
+    ],
+    "plugin": "com.github.kaleidoscope_bloodwine.mixin.cgt.CGTMixinPlugin"
+}

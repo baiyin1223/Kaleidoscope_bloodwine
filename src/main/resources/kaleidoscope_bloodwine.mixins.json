@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "com.github.kaleidoscope_bloodwine.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "kaleidoscope_bloodwine.refmap.json",
+    "mixins": [
+        "PressingTubBlockEntityMixin",
+        "BarrelBlockEntityMixin",
+        "BarrelBlockEntityAccessor"
+    ],
+    "minVersion": "0.8"
+}

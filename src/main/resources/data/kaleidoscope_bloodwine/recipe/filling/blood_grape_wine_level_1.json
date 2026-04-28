@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "creategearsandtavern"
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "kaleidoscope_tavern:empty_bottle"
+        },
+        {
+            "type": "neoforge:components",
+            "amount": 250,
+            "components": {
+                "creategearsandtavern:kaleidoscope_drink_variant": {
+                        "brew_level": 1,
+                        "drink_id": "kaleidoscope_bloodwine:blood_grape_wine"
+                    }
+                
+            },
+            "fluids": "kaleidoscope_bloodwine:blood_grape_wine"
+        }
+    ],
+    "results": [
+        {
+            "id": "kaleidoscope_bloodwine:blood_grape_wine",
+            "components": {
+                "kaleidoscope_tavern:brew_level": 1
+            }
+        }
+    ]
+}

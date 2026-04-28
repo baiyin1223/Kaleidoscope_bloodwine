@@ -1,0 +1,103 @@
+{
+    "item": "kaleidoscope_bloodwine:blood_carignan",
+    "effects": [
+        [
+            {
+                "effect": "minecraft:nausea",
+                "duration": 35,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:nausea",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:water_breathing",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 30,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:water_breathing",
+                "duration": 30,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 60,
+                "amplifier": 2,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:water_breathing",
+                "duration": 60,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 100,
+                "amplifier": 3,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:jump_boost",
+                "duration": 100,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:water_breathing",
+                "duration": 100,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:speed",
+                "duration": 150,
+                "amplifier": 5,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:jump_boost",
+                "duration": 150,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:water_breathing",
+                "duration": 150,
+                "amplifier": 1,
+                "probability": 1.0
+            }
+        ]
+    ]
+}

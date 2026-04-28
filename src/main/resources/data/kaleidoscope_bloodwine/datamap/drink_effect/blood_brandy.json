@@ -1,0 +1,121 @@
+{
+    "item": "kaleidoscope_bloodwine:blood_brandy",
+    "effects": [
+        [
+            {
+                "effect": "minecraft:nausea",
+                "duration": 35,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:nausea",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:strength",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:absorption",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 10,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:strength",
+                "duration": 30,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:absorption",
+                "duration": 20,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 20,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:strength",
+                "duration": 60,
+                "amplifier": 2,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:absorption",
+                "duration": 40,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 40,
+                "amplifier": 1,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:strength",
+                "duration": 100,
+                "amplifier": 3,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:absorption",
+                "duration": 80,
+                "amplifier": 2,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 80,
+                "amplifier": 2,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "minecraft:strength",
+                "duration": 150,
+                "amplifier": 5,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:absorption",
+                "duration": 160,
+                "amplifier": 3,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 150,
+                "amplifier": 3,
+                "probability": 1.0
+            }
+        ]
+    ]
+}

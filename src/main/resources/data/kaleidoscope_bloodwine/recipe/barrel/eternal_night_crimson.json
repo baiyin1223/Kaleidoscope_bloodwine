@@ -1,0 +1,28 @@
+{
+    "type": "kaleidoscope_tavern:barrel",
+    "carrier": {
+        "item": "kaleidoscope_tavern:empty_bottle"
+    },
+    "fluid": "vampirism:blood",
+    "ingredients": [
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:golden_carrot"
+        },
+        {
+            "tag": "vampirism:pure_blood"
+        }
+    ],
+    "result": {
+        "id": "kaleidoscope_bloodwine:eternal_night_crimson"
+    },
+    "unit_time": 2400,
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "vampirism"
+        }
+    ]
+}

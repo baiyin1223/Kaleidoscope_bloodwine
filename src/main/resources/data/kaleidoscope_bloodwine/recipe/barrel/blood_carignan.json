@@ -1,0 +1,25 @@
+{
+    "type": "kaleidoscope_tavern:barrel",
+    "carrier": {
+        "item": "kaleidoscope_tavern:empty_bottle"
+    },
+    "fluid": "vampirism:blood",
+    "ingredients": [
+        {
+            "item": "kaleidoscope_tavern:grape"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "result": {
+        "id": "kaleidoscope_bloodwine:blood_carignan"
+    },
+    "unit_time": 2400,
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "vampirism"
+        }
+    ]
+}
