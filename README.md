@@ -8,7 +8,7 @@ Kaleidoscope Bloodwine is an addon mod for **KaleidoscopeTavern**, bringing fant
 
 - **Mod Name**: Kaleidoscope Bloodwine
 - **Minecraft Version**: Forge 1.20.1|neoforge 1.21.1
-- **Author**: baiyin_1223
+- **Author**: baiyin1223
 - **License**: MIT
 
 ## Features
