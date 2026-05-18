@@ -88,10 +88,6 @@ public class HunterDrinkBlockItem extends BloodDrinkBlockItem {
                 duration = 60;
             }
             case 6 -> {
-                amplifier = 3;
-                duration = 100;
-            }
-            case 7 -> {
                 amplifier = 5;
                 duration = 150;
             }

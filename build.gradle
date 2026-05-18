@@ -62,16 +62,10 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     
     // 主模组依赖 - KaleidoscopeTavern (Modrinth Maven)
-    implementation fg.deobf("maven.modrinth:kaleidoscopetavern:1.0.1-forge+mc1.20.1")
+    implementation fg.deobf("maven.modrinth:kaleidoscopetavern:1.1.2-forge+mc1.20.1")
     
     // Vampirism API - 编译时依赖（可选附属模组）
     compileOnly fg.deobf("de.teamlapen.vampirism:Vampirism:1.20.1-1.10.11:api")
-
-    // Create: Gears and Tavern 兼容（仅编译时，Modrinth Maven）
-    compileOnly fg.deobf("maven.modrinth:create-gears-and-tavern:1.1.1")
-
-    // Create mod - 编译时依赖（CGT 兼容）
-    compileOnly fg.deobf("maven.modrinth:create:mc1.20.1-6.0.8")
 }
 
 tasks.named('processResources', ProcessResources).configure {
@@ -105,7 +99,7 @@ jar {
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : mod_authors,
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                "MixinConfigs"            : "kaleidoscope_bloodwine.mixins.json,kaleidoscope_bloodwine.cgt.mixins.json"
+                "MixinConfigs"            : "kaleidoscope_bloodwine.mixins.json"
         ])
     }
     finalizedBy 'reobfJar'

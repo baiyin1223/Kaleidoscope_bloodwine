@@ -72,7 +72,7 @@ public class VampirismCompat {
      *
      * @param player    饮用血酒的吸血鬼玩家
      * @param stack     被饮用的 ItemStack（用作 drinkBlood 上下文）
-     * @param brewLevel 酿造等级 (1-7)
+     * @param brewLevel 酿造等级 (1-6)
      */
     public static void onDrinkBloodWine(Player player, ItemStack stack, int brewLevel) {
         getImpl().onDrinkBloodWine(player, stack, brewLevel);
@@ -84,7 +84,7 @@ public class VampirismCompat {
      *
      * @param player    饮用永夜血酒的吸血鬼玩家
      * @param stack     被饮用的 ItemStack（用作 drinkBlood 上下文）
-     * @param brewLevel 酿造等级 (1-7)
+     * @param brewLevel 酿造等级 (1-6)
      */
     public static void onDrinkEternalNight(Player player, ItemStack stack, int brewLevel) {
         getImpl().onDrinkEternalNight(player, stack, brewLevel);
@@ -96,7 +96,7 @@ public class VampirismCompat {
      *
      * @param player    饮用幽庭血之秘酿的吸血鬼玩家
      * @param stack     被饮用的 ItemStack（用作 drinkBlood 上下文）
-     * @param brewLevel 酿造等级 (1-7)
+     * @param brewLevel 酿造等级 (1-6)
      */
     public static void onDrinkCourtyardBrew(Player player, ItemStack stack, int brewLevel) {
         getImpl().onDrinkCourtyardBrew(player, stack, brewLevel);
@@ -108,7 +108,7 @@ public class VampirismCompat {
      *
      * @param player    饮用罪痕绯酒的吸血鬼玩家
      * @param stack     被饮用的 ItemStack（用作 drinkBlood 上下文）
-     * @param brewLevel 酿造等级 (1-7)
+     * @param brewLevel 酿造等级 (1-6)
      */
     public static void onDrinkSinmarkCrimson(Player player, ItemStack stack, int brewLevel) {
         getImpl().onDrinkSinmarkCrimson(player, stack, brewLevel);
@@ -119,7 +119,7 @@ public class VampirismCompat {
      * 仅在服务端调用有效；必须在确认 {@link #isLoaded()} 和 {@link #isVampire(Player)} 后调用。
      *
      * @param player    饮用猎人饮品的吸血鬼玩家
-     * @param brewLevel 酿造等级 (1-7)
+     * @param brewLevel 酿造等级 (1-6)
      */
     public static void applyHunterDrinkVampireDebuff(Player player, int brewLevel) {
         getImpl().applyHunterDrinkVampireDebuff(player, brewLevel);
@@ -248,8 +248,7 @@ public class VampirismCompat {
                 case 3 -> { amplifier = 0; duration = 60; }
                 case 4 -> { amplifier = 1; duration = 120; }
                 case 5 -> { amplifier = 2; duration = 240; }
-                case 6 -> { amplifier = 3; duration = 360; }
-                case 7 -> { amplifier = 4; duration = 480; }
+                case 6 -> { amplifier = 4; duration = 480; }
                 default -> { return; }
             }
 
@@ -271,8 +270,7 @@ public class VampirismCompat {
                 case 3 -> { amplifier = 0; duration = 60; }
                 case 4 -> { amplifier = 1; duration = 120; }
                 case 5 -> { amplifier = 2; duration = 180; }
-                case 6 -> { amplifier = 3; duration = 240; }
-                case 7 -> { amplifier = 4; duration = 300; }
+                case 6 -> { amplifier = 4; duration = 300; }
                 default -> { return; }
             }
 
@@ -295,8 +293,7 @@ public class VampirismCompat {
                 case 3 -> { amplifier = 0; duration = 60; }
                 case 4 -> { amplifier = 1; duration = 120; }
                 case 5 -> { amplifier = 2; duration = 180; }
-                case 6 -> { amplifier = 3; duration = 240; }
-                case 7 -> { amplifier = 4; duration = 300; }
+                case 6 -> { amplifier = 4; duration = 300; }
                 default -> { return; }
             }
 
@@ -313,8 +310,7 @@ public class VampirismCompat {
                 case 3 -> 8;
                 case 4 -> 12;
                 case 5 -> 18;
-                case 6 -> 25;
-                case 7 -> 35;
+                case 6 -> 35;
                 default -> 0;
             };
         }
@@ -328,8 +324,7 @@ public class VampirismCompat {
                 case 3 -> 15;
                 case 4 -> 20;
                 case 5 -> 30;
-                case 6 -> 45;
-                case 7 -> 60;
+                case 6 -> 60;
                 default -> 0;
             };
         }
