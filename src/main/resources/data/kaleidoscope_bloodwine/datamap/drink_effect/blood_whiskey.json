@@ -4,116 +4,72 @@
         [
             {
                 "effect": "minecraft:nausea",
+                "duration": 30,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "kaleidoscope_tavern:slightly_tipsy",
+                "duration": 50,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "kaleidoscope_tavern:slightly_tipsy",
                 "duration": 35,
                 "amplifier": 0,
                 "probability": 1.0
-            }
-        ],
-        [
+            },
             {
-                "effect": "minecraft:nausea",
-                "duration": 10,
+                "effect": "minecraft:strength",
+                "duration": 100,
                 "amplifier": 0,
                 "probability": 1.0
             }
         ],
         [
             {
-                "effect": "minecraft:haste",
-                "duration": 10,
+                "effect": "kaleidoscope_tavern:slightly_tipsy",
+                "duration": 35,
                 "amplifier": 0,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:absorption",
-                "duration": 10,
-                "amplifier": 0,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:speed",
-                "duration": 10,
+                "effect": "minecraft:strength",
+                "duration": 280,
                 "amplifier": 0,
                 "probability": 1.0
             }
         ],
         [
             {
-                "effect": "minecraft:haste",
-                "duration": 30,
-                "amplifier": 1,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:absorption",
-                "duration": 20,
+                "effect": "kaleidoscope_tavern:slightly_tipsy",
+                "duration": 25,
                 "amplifier": 0,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:speed",
-                "duration": 20,
-                "amplifier": 0,
-                "probability": 1.0
-            }
-        ],
-        [
-            {
-                "effect": "minecraft:haste",
-                "duration": 90,
-                "amplifier": 2,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:absorption",
-                "duration": 40,
-                "amplifier": 1,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:speed",
-                "duration": 40,
+                "effect": "minecraft:strength",
+                "duration": 280,
                 "amplifier": 1,
                 "probability": 1.0
             }
         ],
         [
             {
-                "effect": "minecraft:haste",
-                "duration": 270,
-                "amplifier": 3,
+                "effect": "kaleidoscope_tavern:slightly_tipsy",
+                "duration": 15,
+                "amplifier": 0,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:absorption",
-                "duration": 80,
-                "amplifier": 2,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:speed",
-                "duration": 80,
-                "amplifier": 2,
-                "probability": 1.0
-            }
-        ],
-        [
-            {
-                "effect": "minecraft:haste",
-                "duration": 480,
-                "amplifier": 5,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:absorption",
-                "duration": 160,
-                "amplifier": 3,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:speed",
-                "duration": 150,
-                "amplifier": 3,
+                "effect": "minecraft:strength",
+                "duration": 600,
+                "amplifier": 1,
                 "probability": 1.0
             }
         ]

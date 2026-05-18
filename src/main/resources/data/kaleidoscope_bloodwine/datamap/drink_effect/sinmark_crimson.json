@@ -1,5 +1,5 @@
 {
-    "item": "kaleidoscope_bloodwine:hunter_drink",
+    "item": "kaleidoscope_bloodwine:sinmark_crimson",
     "effects": [
         [
             {
@@ -17,10 +17,22 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
+                "effect": "minecraft:luck",
                 "duration": 80,
                 "amplifier": 0,
                 "probability": 1.0
+            },
+            {
+                "effect": "minecraft:night_vision",
+                "duration": 80,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 60,
+                "amplifier": 0,
+                "probability": 1.0
             }
         ],
         [
@@ -31,14 +43,20 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
-                "duration": 120,
+                "effect": "minecraft:luck",
+                "duration": 200,
                 "amplifier": 0,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:fire_resistance",
-                "duration": 100,
+                "effect": "minecraft:night_vision",
+                "duration": 200,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 160,
                 "amplifier": 0,
                 "probability": 1.0
             }
@@ -51,14 +69,20 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
+                "effect": "minecraft:luck",
+                "duration": 350,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:night_vision",
+                "duration": 350,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
                 "duration": 300,
-                "amplifier": 0,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:fire_resistance",
-                "duration": 240,
                 "amplifier": 0,
                 "probability": 1.0
             }
@@ -71,15 +95,21 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
-                "duration": 350,
+                "effect": "minecraft:luck",
+                "duration": 450,
                 "amplifier": 1,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:fire_resistance",
-                "duration": 300,
+                "effect": "minecraft:night_vision",
+                "duration": 450,
                 "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 400,
+                "amplifier": 1,
                 "probability": 1.0
             }
         ],
@@ -91,15 +121,21 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
+                "effect": "minecraft:luck",
                 "duration": 660,
                 "amplifier": 1,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:fire_resistance",
-                "duration": 600,
+                "effect": "minecraft:night_vision",
+                "duration": 660,
                 "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:speed",
+                "duration": 660,
+                "amplifier": 1,
                 "probability": 1.0
             }
         ]

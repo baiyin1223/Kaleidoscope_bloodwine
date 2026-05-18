@@ -1,5 +1,5 @@
 {
-    "item": "kaleidoscope_bloodwine:hunter_drink",
+    "item": "kaleidoscope_bloodwine:courtyard_blood_brew",
     "effects": [
         [
             {
@@ -17,28 +17,14 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
+                "effect": "minecraft:haste",
                 "duration": 80,
                 "amplifier": 0,
                 "probability": 1.0
-            }
-        ],
-        [
-            {
-                "effect": "kaleidoscope_tavern:slightly_tipsy",
-                "duration": 35,
-                "amplifier": 0,
-                "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
-                "duration": 120,
-                "amplifier": 0,
-                "probability": 1.0
-            },
-            {
-                "effect": "minecraft:fire_resistance",
-                "duration": 100,
+                "effect": "minecraft:regeneration",
+                "duration": 60,
                 "amplifier": 0,
                 "probability": 1.0
             }
@@ -51,14 +37,40 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
-                "duration": 300,
+                "effect": "minecraft:haste",
+                "duration": 200,
                 "amplifier": 0,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:fire_resistance",
-                "duration": 240,
+                "effect": "minecraft:regeneration",
+                "duration": 180,
+                "amplifier": 0,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "effect": "kaleidoscope_tavern:slightly_tipsy",
+                "duration": 35,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:haste",
+                "duration": 350,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:regeneration",
+                "duration": 320,
+                "amplifier": 0,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:absorption",
+                "duration": 200,
                 "amplifier": 0,
                 "probability": 1.0
             }
@@ -71,14 +83,20 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
-                "duration": 350,
+                "effect": "minecraft:haste",
+                "duration": 450,
                 "amplifier": 1,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:fire_resistance",
-                "duration": 300,
+                "effect": "minecraft:regeneration",
+                "duration": 400,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:absorption",
+                "duration": 350,
                 "amplifier": 0,
                 "probability": 1.0
             }
@@ -91,14 +109,20 @@
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:strength",
+                "effect": "minecraft:haste",
                 "duration": 660,
                 "amplifier": 1,
                 "probability": 1.0
             },
             {
-                "effect": "minecraft:fire_resistance",
-                "duration": 600,
+                "effect": "minecraft:regeneration",
+                "duration": 660,
+                "amplifier": 1,
+                "probability": 1.0
+            },
+            {
+                "effect": "minecraft:absorption",
+                "duration": 500,
                 "amplifier": 0,
                 "probability": 1.0
             }

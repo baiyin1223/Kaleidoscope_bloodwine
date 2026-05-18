@@ -4,9 +4,6 @@ license="${mod_license}"
 [[mixins]]
 config="kaleidoscope_bloodwine.mixins.json"
 
-[[mixins]]
-config="kaleidoscope_bloodwine.cgt.mixins.json"
-
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
@@ -40,12 +37,5 @@ side="BOTH"
 modId="vampirism"
 type="optional"
 versionRange="[1.9,)"
-ordering="AFTER"
-side="BOTH"
-
-[[dependencies."kaleidoscope_bloodwine"]]
-modId="creategearsandtavern"
-type="optional"
-versionRange="[1.0.0,)"
 ordering="AFTER"
 side="BOTH"
