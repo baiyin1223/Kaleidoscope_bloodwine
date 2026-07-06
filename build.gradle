@@ -62,8 +62,8 @@ repositories {
 }
 
 dependencies {
-    // KaleidoscopeTavern - 主依赖（前置）
-    implementation "maven.modrinth:kaleidoscopetavern:1.1.2-neoforge+mc1.21.1"
+    // KaleidoscopeTavern - 主依赖（前置）- 本地 jar
+    implementation files("libs/kaleidoscopetavern-1.2.0.jar")
 
     // Vampirism - 可选兼容（编译期）
     compileOnly "maven.modrinth:vampirism:1.21-1.10.10"

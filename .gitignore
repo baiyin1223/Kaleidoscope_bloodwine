@@ -12,7 +12,7 @@ out/
 *.jar
 !gradle/wrapper/gradle-wrapper.jar
 jar_temp/
-com/
+/com/
 
 # Analysis/debug temp files
 BarrelFluidHandler*.txt
