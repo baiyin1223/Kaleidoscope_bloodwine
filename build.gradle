@@ -61,8 +61,8 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     
-    // 主模组依赖 - KaleidoscopeTavern (Modrinth Maven)
-    implementation fg.deobf("maven.modrinth:kaleidoscopetavern:1.1.2-forge+mc1.20.1")
+    // 主模组依赖 - KaleidoscopeTavern（本地 jar）
+    implementation fg.deobf(files("libs/kaleidoscopetavern-1.2.0.jar"))
     
     // Vampirism API - 编译时依赖（可选附属模组）
     compileOnly fg.deobf("de.teamlapen.vampirism:Vampirism:1.20.1-1.10.11:api")

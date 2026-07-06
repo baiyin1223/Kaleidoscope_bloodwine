@@ -100,11 +100,11 @@ public class ModBlocks {
 
     // 血白兰地 - 使用 BRANDY 形状（不规则）
     public static final RegistryObject<Block> BLOOD_BRANDY = BLOCKS.register("blood_brandy",
-            () -> new BloodDrinkBlock(true, 3, BRANDY_SHAPES));
+            () -> new BloodDrinkBlock(3, BRANDY_SHAPES));
 
     // 血佳丽酿 - 使用 CARIGNAN 形状（不规则）
     public static final RegistryObject<Block> BLOOD_CARIGNAN = BLOCKS.register("blood_carignan",
-            () -> new BloodDrinkBlock(true, 3, CARIGNAN_SHAPES));
+            () -> new BloodDrinkBlock(3, CARIGNAN_SHAPES));
 
     // 猎人饮品 - 使用 WINE 形状
     public static final RegistryObject<Block> HUNTER_DRINK = BLOCKS.register("hunter_drink",

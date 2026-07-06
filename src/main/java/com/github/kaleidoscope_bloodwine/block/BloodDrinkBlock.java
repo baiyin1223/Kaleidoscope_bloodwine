@@ -31,12 +31,8 @@ import java.util.List;
  */
 public class BloodDrinkBlock extends DrinkBlock {
 
-    public BloodDrinkBlock(boolean irregular, int maxCount, VoxelShape... shapes) {
-        super(irregular, maxCount, shapes);
-    }
-
     public BloodDrinkBlock(int maxCount, VoxelShape... shapes) {
-        this(false, maxCount, shapes);
+        super(maxCount, shapes);
     }
 
     @Override
